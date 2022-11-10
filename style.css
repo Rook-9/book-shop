@@ -1,3 +1,13 @@
-body {
-    background-color: aquamarine;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background-image: url(./images/headerBackground.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: rgb(151, 182, 24);
+    padding: 6rem 11rem 2rem;
+    font-size: 2rem;
+    text-align: center;
 }
